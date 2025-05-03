@@ -6,5 +6,5 @@ export const getExample = (req: Request, res: Response): void => {
 
 export const createExample = (req: Request, res: Response): void => {
     const { data } = req.body;
-    res.json({ message: 'POST example endpoint', data });
+    res.json({ message: 'POST example as endpoint', data });
 };
